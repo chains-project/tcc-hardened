@@ -14,9 +14,7 @@ on:
 
 jobs:
   call-ddc4cd:
-    runs-on: ubuntu-24.04
-    steps:
-      - uses: chains-project/ddc4cd/.github/workflows/ddc-release.yml@reusable-workflow
-        with: 
-          tcc-commit-hash: ${{ inputs.tcc-commit-hash }}
-          nixpkgs-rev: ${{ inputs.nixpkgs-rev }}
+    uses: chains-project/ddc4cd/.github/workflows/ddc-release.yml@reusable-workflow
+    with: 
+      tcc-commit-hash: ${{ inputs.tcc-commit-hash }}
+      nixpkgs-rev: ${{ inputs.nixpkgs-rev }}

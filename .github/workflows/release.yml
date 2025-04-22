@@ -14,7 +14,7 @@ on:
 
 jobs:
   call-ddc4cd:
-    uses: chains-project/ddc4cd/.github/workflows/ddc-release.yml@reusable-workflow
+    uses: chains-project/ddc4cd/.github/workflows/ddc-release.yml@v0.1.0
     permissions:
       contents: write
     with: 

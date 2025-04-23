@@ -14,9 +14,11 @@ on:
 
 jobs:
   call-ddc4cd:
-    uses: chains-project/ddc4cd/.github/workflows/ddc-release.yml@v0.1.0
+    uses: chains-project/ddc4cd/.github/workflows/ddc-release.yml@v0.2.0
     permissions:
       contents: write
+      id-token: write
+      attestations: write
     with: 
       tcc-commit-hash: ${{ inputs.tcc-commit-hash }}
       nixpkgs-rev: ${{ inputs.nixpkgs-rev }}

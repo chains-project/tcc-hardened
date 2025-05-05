@@ -1,5 +1,5 @@
-name: Release tcc-hardened
-run-name: ${{ github.actor }} is releasing tcc using DDC 🚀
+name: Test tcc-hardened
+run-name: ${{ github.actor }} is testing ddc4cd 🚀
 on: 
   workflow_dispatch:
     inputs:

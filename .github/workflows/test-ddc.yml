@@ -17,7 +17,7 @@ on:
 
 jobs:
   call-ddc4cd:
-    uses: chains-project/ddc4cd/.github/workflows/ddc.yml@latest
+    uses: chains-project/ddc4cd/.github/workflows/ddc.yml@master
     permissions:
       contents: write
       id-token: write

@@ -14,6 +14,9 @@ on:
       compromise-tcc:
         type: boolean
         default: false
+      release:
+        type: boolean
+        default: false
 
 jobs:
   call-ddc4cd:
@@ -26,3 +29,4 @@ jobs:
       tcc-commit-hash: ${{ inputs.tcc-commit-hash }}
       nixpkgs-rev: ${{ inputs.nixpkgs-rev }}
       compromise-tcc: ${{ inputs.compromise-tcc }}
+      release: ${{ inputs.release }}

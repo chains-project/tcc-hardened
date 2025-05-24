@@ -20,7 +20,7 @@ on:
 
 jobs:
   call-ddc4cd:
-    uses: chains-project/ddc4cd/.github/workflows/ddc.yml@fix-pdf-workdir
+    uses: chains-project/ddc4cd/.github/workflows/ddc.yml@rq2-tta
     permissions:
       contents: write
       id-token: write

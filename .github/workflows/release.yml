@@ -18,7 +18,7 @@ on:
 
 jobs:
   call-ddc4cd:
-    uses: chains-project/ddc4cd/.github/workflows/ddc-release.yml@2551831370bd749580347af2188230edb5178113 # v0.3.13
+    uses: chains-project/ddc4cd/.github/workflows/ddc-release.yml@17eacffb020daf8eb5ea44e6b6b126aa8c7601be # v0.3.14
     permissions:
       contents: write
       id-token: write
